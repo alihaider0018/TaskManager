@@ -9,7 +9,7 @@ import {
 import axios from "axios";
 import { Check, Plus, Trash2, Menu, X } from "lucide-react";
 
-const API_BASE_URL = "http://localhost:3000";
+const API_BASE_URL = "https://taskmaster-g5n5.onrender.com";
 
 const App = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
